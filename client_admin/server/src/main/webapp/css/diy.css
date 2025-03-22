@@ -1,0 +1,380 @@
+.layui-logo {
+    width: 235px !important;
+}
+
+.layui-side li {
+    width: 235px !important;
+    z-index: 3;
+}
+
+.layui-layout-body,
+.layui-side,
+.layui-side-scroll {
+    padding-right: 35px;
+}
+
+.layui-laypage-count::before {
+    content: '合计';
+}
+
+.table {
+    margin-left: 35px;
+}
+
+.section1 h1 {
+    margin-left: 40px;
+}
+
+.layui-table img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.layui-nav .layui-nav-item a {
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.layui-table-cell {
+    line-height: 100px;
+    height: 100px;
+	text-align: center;
+}
+
+.section1 .table .layui-form .layui-table-box .layui-table-header {
+    height: 60px;
+}
+
+.layui-table-header .layui-table thead tr th .layui-table-cell {
+    line-height: 3;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* 滑动验证 */
+.login body article .warp .layui-container .layui-row .layui-form .wrap {
+    width: 400px !important;
+    margin: auto !important;
+}
+
+.login body article .warp .layui-container .layui-row .layui-form .wrap .banner {
+    width: 400px !important;
+    height: 300px !important;
+}
+
+/*  前面是固定模块 勿动  */
+
+/* 登录页面 */
+.login article .warp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: transparent url(../img/bg.jpg) no-repeat center;
+  background-size: 100% 100% !important;
+}
+
+.login article .warp .layui-container {
+  position: relative;
+  background-color: rgba(244, 246, 250, .9);
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 12px 12px 30px 18px rgb(0, 0, 0, .2);
+}
+
+.login article .warp .layui-container:before {
+  z-index: 0;
+  position: absolute;
+  left: 50%;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: #26416A url(../img/bg.jpg) no-repeat right;
+}
+
+.login article .warp .layui-container .layui-row {
+  position: relative;
+  width: 50%;
+  padding: 0;
+}
+
+.login article .warp .layui-container .layui-row div span h1 {
+  text-align: center;
+  color: #086796;
+}
+
+.login article .warp .layui-container .layui-row .layui-form .layui-form-item {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.login article .warp .layui-container .layui-row .layui-form .layui-form-item .layui-form-label {
+  width: auto;
+  padding: 9px 0;
+}
+
+.login article .warp .layui-container .layui-row .layui-form .layui-form-item .layui-input-block {
+  max-width: 300px;
+  width: 60%;
+  margin-left: 10px;
+}
+
+.login article .warp .layui-container .layui-row .layui-form .wrap {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.login article .warp .layui-container .layui-row .layui-form .layui-form-item .layui-input-block .layui-input {
+  border-radius: 10px;
+  box-shadow: 0 1px 6px 0px #ccc;
+}
+
+.login article .warp .layui-container .layui-row .layui-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.login article .warp .layui-container .layui-row .layui-btn-container .layui-btn {
+  width: 300px;
+  margin-right: 0;
+  margin-bottom: 30px;
+  color: #E9E9E9;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #026BA4 , #008997);
+}
+
+/* 通用 */
+
+.sign_in .warp {
+  margin-top: 20px;
+}
+
+.sign_in .warp .layui-container {
+  width: 600px;
+  background-color: #dbe2ef;
+  border-radius: 20px;
+}
+
+/* 框架页面 */
+.layui-layout-admin .layui-logo {
+  background-color: #355c7d !important;
+}
+
+.layui-layout-admin .layui-header {
+  background-color: #11999e;
+}
+
+.layui-layout .layui-side {
+  background-color: #07689f !important;
+}
+
+.layui-layout .layui-side .layui-side-scroll #uls {
+  background-color: transparent;
+}
+
+.layui-layout .layui-header .layui-nav li h1 {
+  margin-left: 500px;
+  color: #fff;
+  width: 100%;
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section1 {
+  background-color: #dbe2ef;
+}
+
+.layui-layout .layui-side .layui-side-scroll .layui-nav .layui-nav-item:before {
+  position: absolute;
+  top: 12px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: transparent url(../img/icon-data.png) no-repeat center/100% 100%;
+}
+
+.layui-layout .layui-side .layui-side-scroll .layui-nav .layui-nav-item:nth-of-type(2):before {
+  background-image: url(../img/icon-manage.png);
+}
+
+.layui-layout .layui-side .layui-side-scroll .layui-nav .layui-nav-item:nth-of-type(3):before {
+  background-image: url(../img/icon-user.png);
+}
+
+.layui-layout .layui-side .layui-side-scroll .layui-nav .layui-nav-item:nth-of-type(4):before {
+  background-image: url(../img/icon-message.png);
+}
+
+.layui-layout .layui-side .layui-side-scroll .layui-nav .layui-nav-item:nth-of-type(5):before {
+  background-image: url(../img/icon-make.png);
+}
+
+.layui-layout .layui-side .layui-side-scroll .layui-nav .layui-nav-item:nth-of-type(6):before {
+  background-image: url(../img/icon-individuation.png);
+}
+
+.layui-layout .layui-side .layui-side-scroll .layui-nav .layui-nav-item:nth-of-type(7):before {
+  background-image: url(../img/icon-classify.png);
+}
+
+.layui-layout .layui-side .layui-side-scroll .layui-nav .layui-nav-item:nth-of-type(8):before {
+  background-image: url(../img/icon-notice.png);
+}
+
+.layui-layout .layui-side .layui-side-scroll .layui-nav .layui-nav-item:nth-of-type(9):before {
+  background-image: url(../img/icon-book.png);
+}
+
+.layui-layout .layui-side .layui-side-scroll .layui-nav .layui-nav-item:nth-of-type(10):before {
+  background-image: url(../img/icon-exit.png);
+}
+
+.layui-layout .layui-side .layui-side-scroll #uls .layui-nav-item a {
+  padding-left: 22px;
+}
+
+article .warp .layui-container .layui-row div span h1 {
+  text-align: center;
+  color: #07689f;
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+article .warp .layui-container .layui-row .layui-form {
+  position: relative;
+  margin: 30px auto;
+  width: 500px;
+}
+
+.layui-input-block .layui-input {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.layui-btn {
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+article .userInfo .layui-container .layui-row .layui-form .layui-form-item:nth-child(even) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 36px;
+}
+
+article .userInfo .layui-container .layui-row .layui-form .layui-form-item:nth-child(4) {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+article .userInfo .layui-container .layui-row .layui-form .layui-form-item:nth-child(6) {
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+article .userInfo .layui-container .layui-row .layui-form .layui-form-item:nth-child(3) {
+  margin-top: 30px;
+}
+
+article .warp .layui-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section1 .manu {
+  position: relative;
+}
+.section1 .manu>.layui-form-item>div,
+.section1 .manu .layui-form .layui-form-item,
+.section1 .manu .layui-form .layui-form-item>div:not(.layui-input-block) {
+  display: flex;
+ flex-direction: column;
+  width: 360px;
+}
+
+.section1 .manu>.layui-form-item>div .layui-form-label,
+.section1 .manu .layui-form .layui-form-item .layui-form-label {
+  float: none;
+  margin-bottom: 20px;
+}
+
+.section1 .manu>.layui-form-item>div .layui-input-block,
+.section1 .manu .layui-form .layui-form-item .layui-input-block {
+  margin-left: 20px;
+}
+
+.section1 .buts {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section1 .buts .layui-btn {
+  display: block;
+  width: 150px;
+  margin: 16px 10px 0;
+}
+
+.sign_in .warp .layui-container .layui-row .layui-form .layui-upload .layui-upload-list .layui-upload-img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #8785a2;
+}
+
+.sign_in .warp .layui-container .layui-row .layui-form .layui-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 500px;
+}
+
+.sign_in .userInfo .layui-container .layui-row .layui-form .layui-form-item .layui-upload {
+  display: block;
+}
+
+.sign_in .warp .layui-container .layui-row .layui-form .layui-form-item .layui-upload span {
+  font-weight: 700;
+  line-height: 30px;
+}
+ .exam .layui-form{
+	 margin-left: 100px;
+ }
+ .exam{
+	/* padding-left: 50px; */
+ }
+  .exam .layui-form-label{
+	  width: 100px;
+  }
+  
+  .exam  .buts{
+	  position: relative;
+	  left: 20px;
+  }
+  .box{
+	  margin-left: 100px;
+	  margin-top: 20px;
+  }
+  #val{
+	  margin-left: 125px !important;
+  }
